@@ -87,28 +87,12 @@ def finfo(type: Union[dtype, array], /) -> finfo_object:
 
     Returns
     -------
-    out: finfo object
-        an object having the followng attributes:
+    out: finfo_object
+        An object with the attributes as defined by :class:`~.finfo_object`.
 
-        - **bits**: *int*
+        .. autoclass:: signatures._types.finfo_object
 
-          number of bits occupied by the floating-point data type.
 
-        - **eps**: *float*
-
-          difference between 1.0 and the next smallest representable floating-point number larger than 1.0 according to the IEEE-754 standard.
-
-        - **max**: *float*
-
-          largest representable number.
-
-        - **min**: *float*
-
-          smallest representable number.
-
-        - **smallest_normal**: *float*
-
-          smallest positive floating-point number with full precision.
     """
 
 def iinfo(type: Union[dtype, array], /) -> iinfo_object:

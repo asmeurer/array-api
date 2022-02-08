@@ -22,6 +22,20 @@ ellipsis = TypeVar('ellipsis')
 
 @dataclass
 class finfo_object:
+    """
+    An object returned from :func:`~.finfo`. It has the following attributes:
+
+    Attributes:
+        bits (int): number of bits occupied by the floating-point data type.
+
+        eps (float): difference between 1.0 and the next smallest representable floating-point number larger than 1.0 according to the IEEE-754 standard.
+
+        max (float): largest representable number.
+
+        min (float): smallest representable number.
+
+        smallest_normal (float): smallest positive floating-point number with full precision.
+"""
     bits: int
     eps: float
     max: float
