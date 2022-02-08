@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import dtype
 
 def __eq__(self: dtype, other: dtype, /) -> bool:

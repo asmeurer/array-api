@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 e = 2.718281828459045
 """
 IEEE 754 floating-point representation of Euler's constant.

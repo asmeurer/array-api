@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import array
 
 def abs(x: array, /) -> array:

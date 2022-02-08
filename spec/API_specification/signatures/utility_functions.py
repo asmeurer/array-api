@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import Optional, Tuple, Union, array
 
 def all(x: array, /, *, axis: Optional[Union[int, Tuple[int, ...]]] = None, keepdims: bool = False) -> array:

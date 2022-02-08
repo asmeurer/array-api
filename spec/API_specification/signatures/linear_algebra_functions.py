@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import Tuple, Union, array
 from collections.abc import Sequence
 

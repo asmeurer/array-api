@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import Optional, Tuple, Union, array, dtype
 
 def max(x: array, /, *, axis: Optional[Union[int, Tuple[int, ...]]] = None, keepdims: bool = False) -> array:

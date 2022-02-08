@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import Tuple, array
 
 def unique_all(x: array, /) -> Tuple[array, array, array, array]:

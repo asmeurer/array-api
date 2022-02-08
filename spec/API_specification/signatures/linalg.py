@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import Literal, Optional, Tuple, Union, array
 from .constants import inf
 from collections.abc import Sequence

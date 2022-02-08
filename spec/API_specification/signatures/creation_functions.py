@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import (List, NestedSequence, Optional, SupportsBufferProtocol, Tuple, Union, array,
                      device, dtype)
 

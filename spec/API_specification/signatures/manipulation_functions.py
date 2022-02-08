@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import List, Optional, Tuple, Union, array
 
 def concat(arrays: Union[Tuple[array, ...], List[array]], /, *, axis: Optional[int] = 0) -> array:

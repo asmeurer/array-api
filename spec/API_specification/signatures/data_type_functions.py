@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import List, Tuple, Union, array, dtype, finfo_object, iinfo_object
 
 def astype(x: array, dtype: dtype, /, *, copy: bool = True) -> array:

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import Optional, Tuple, array
 
 def argmax(x: array, /, *, axis: Optional[int] = None, keepdims: bool = False) -> array:

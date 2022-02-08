@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ._types import array
 
 def argsort(x: array, /, *, axis: int = -1, descending: bool = False, stable: bool = True) -> array:
